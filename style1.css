@@ -1,0 +1,67 @@
+body{
+  font-size: 20px;
+  font-family: Alegreya Sans SC;
+}
+
+.container{
+  width:80%;
+  margin:auto;
+  overflow: hidden;
+}
+
+#main-header{
+  background-color:blue;
+  color:#fff;
+  padding:5px 
+}
+
+#navbar {
+  background-color:#333;
+  color:#fff;
+}
+
+#navbar ul{
+  padding:15px;
+  list-style: none;
+}
+
+#navbar li{
+  display:inline;
+}
+
+#navbar a{
+  color:#fff;
+  text-decoration: none;
+  font-size:25px;
+  padding:15px;
+}
+.box-1{
+  background-color:#D3D3D3  ;
+  border:5px black solid;
+  border-width:thin;
+  border-radius: 25px;
+  padding:10px;
+}
+
+
+
+.zoomin img{
+  height: 550px;
+  width: 650px;
+  -webkit-transition: all 2s ease;
+     -moz-transition: all 2s ease;
+      -ms-transition: all 2s ease;
+          transition: all 2s ease;
+}
+.zoomin img:hover{
+  width: 1750px;
+  height: 1200px;
+}
+
+#main-footer{
+  background:#333;
+  color:#fff;
+  text-align:center;
+  padding:20px;
+  margin-top:40px;
+}
